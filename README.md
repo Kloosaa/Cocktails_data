@@ -7,10 +7,10 @@ Projekt ma na celu analizę i klasteryzację danych dotyczących napojów. Wykor
 Gaussian Mixture Model, aby pogrupować napoje na podstawie składników i innych cech.
 
 #Pliki w projekcie
-main.py - Skrypt główny, w którym używa się funkcji do czyszczenia danych i klasteryzacji.
 model.py - Moduł zawierający funkcje klasteryzacji i standaryzacji danych.
 processing.py - Moduł przetwarzający dane; zawiera funkcje do wczytywania, czyszczenia i przygotowania danych do analizy.
 wiz.ipynb - Moduł, w którym pokolei oczyszczane są dane i tłumaczone dlaczego tak a nie inaczej. Zawiera też wizualizacje wyników
+cocktail_dataset.json - plik json przechowujacy dane o koktajlach
 
 #Struktura
 Dane: Projekt wykorzystuje dane napojów, które są przetwarzane w celu ekstrakcji składników i innych atrybutów.
@@ -48,7 +48,8 @@ Standaryzuje dane.
 Klasteryzuje dane algorytmem K-means i Gaussian Mixture Model.
 Redukuje dane do dwóch wymiarów za pomocą PCA.
 
-3.Użycie i wizualizacja, użyć funkcji można w pliku main.py, wizualizacje przedstawiono w pliku wiz.ipynb
+3.Użycie i wizualizacja
+użyć funkcji można w innym pliku py lub w notatniku jupytera. wizualizacje przedstawiono w pliku wiz.ipynb
 
 Aby powtórzyć wykonane czynności w uruchomionym pliky py lub ipynb na początku zaimportować potrzebne biblioteki a następnie używając from (nazwa modułu) import (nazwa funkcji), importować funkcje z modułów processing.py i model.py, wykonywać czyszczenie danych w kolejności jak w jupyterze, po wyczyszczeniu danych użyć funkcji z modułu model.py do przygotowania danych pod klasteryzację, argumentów które zwracają nam funkcje użyć do wykresów tworzonych w matplotlib i seaborn, wzory są w pliku wiz.ipynb
 
