@@ -33,6 +33,7 @@ pip install pandas scikit-learn matplotlib seaborn notebook
 
 
 #Instrukcja Użycia
+pliki powinny znajdować sie w jednym folderze
 1.Wczytywanie i Przetwarzanie Danych
 W processing.py znajdują się funkcje do przetwarzania danych:
 Clean_data - odpowiada za pełne przygotowanie danych do analizy. Wykonuje następujące operacje:
